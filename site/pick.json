@@ -1,0 +1,12 @@
+{
+  "sport": "Example",
+  "event": "Placeholder until the first daily run",
+  "start_time": "—",
+  "bet": "No pick yet",
+  "odds": "—",
+  "confidence": "—",
+  "reasoning": "This is sample data. Once the daily GitHub Action runs, this file is replaced with Claude's real pick for the day.",
+  "sources": [],
+  "date": "2026-10-15",
+  "model": "nobody (sample data)"
+}

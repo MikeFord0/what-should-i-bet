@@ -1,0 +1,91 @@
+/* Colors live here so they're easy to change in one place. */
+:root {
+  --bg: #0f1a14;          /* dark felt green */
+  --paper: #f6f1e4;       /* bet-slip paper */
+  --ink: #1b1b18;
+  --muted: #6d675a;
+  --accent: #1f7a4d;      /* "win" green */
+  --line: #d9d0bb;
+  --on-bg: #c9d6cd;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 48px 16px;
+  background: radial-gradient(ellipse at top, #1d3326 0%, var(--bg) 60%);
+  color: var(--on-bg);
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header, .slip, footer { width: 100%; max-width: 560px; }
+
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 6px;
+  color: #8fb39c;
+}
+
+h1 { margin: 0 0 24px; font-size: clamp(1.8rem, 6vw, 2.6rem); font-weight: 800; color: #fff; }
+
+.slip {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 6px;
+  padding: 28px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.slip-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+
+.tag {
+  background: var(--accent);
+  color: #fff;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 3px;
+}
+
+.bet { font-size: clamp(2rem, 8vw, 3rem); font-weight: 800; line-height: 1.05; margin: 22px 0 6px; }
+.event { font-size: 1.1rem; margin: 0 0 22px; color: var(--muted); }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0; }
+.stats div { border-top: 2px solid var(--ink); padding-top: 8px; }
+dt { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+dd { margin: 4px 0 0; font-size: 1.05rem; font-weight: 600; }
+
+/* The dashed "tear here" line across the slip. */
+.tear { border-top: 2px dashed var(--line); margin: 26px -28px 22px; }
+
+h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 6px; }
+.reasoning { font-size: 1.05rem; line-height: 1.55; margin: 0 0 18px; }
+
+details { margin-bottom: 18px; font-size: 0.95rem; }
+summary { cursor: pointer; color: var(--accent); font-weight: 500; }
+details ul { padding-left: 20px; }
+details a { color: var(--ink); word-break: break-word; }
+
+.mono { font-family: "JetBrains Mono", monospace; }
+.muted { color: var(--muted); }
+.small { font-size: 0.75rem; margin: 0; }
+
+footer { margin-top: 28px; font-size: 0.85rem; line-height: 1.5; color: #8fa596; }
+footer a { color: #cfe3d6; }
+
+@media (max-width: 420px) {
+  .slip { padding: 22px; }
+  .tear { margin-left: -22px; margin-right: -22px; }
+  .stats { grid-template-columns: 1fr 1fr; }
+}
