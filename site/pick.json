@@ -1,12 +1,12 @@
 {
-  "sport": "Example",
-  "event": "Placeholder until the first daily run",
-  "start_time": "—",
-  "bet": "No pick yet",
-  "odds": "—",
-  "confidence": "—",
-  "reasoning": "This is sample data. Once the daily GitHub Action runs, this file is replaced with Claude's real pick for the day.",
-  "sources": [],
+  "bet": "Seattle Seahawks -2.5",
+  "confidence": "low",
   "date": "2026-10-15",
-  "model": "nobody (sample data)"
+  "event": "Seattle Seahawks at Denver Broncos",
+  "model": "claude-sonnet-5-5",
+  "odds": "-111",
+  "reasoning": "Seattle has the league's top defense in yards allowed per game, and it pressures quarterbacks at a high rate. That matches up well against Bo Nix, who has struggled this season: he has been under 190 passing yards in three of five games and has an 80.8 passer rating. Seattle has also won straight-up after every loss since the start of last season, and Denver is 1-4 against the spread on Thursdays under Sean Payton. The risks are real. -2.5 is a thin margin, Seattle's offensive line has allowed nine sacks and Darnold is under heavy pressure, and Denver's blitz has produced seven takeaways. A low-scoring game could turn on one turnover, so treat this as a small lean.",
+  "sources": [],
+  "sport": "NFL",
+  "start_time": "8:15 PM ET (6:15 PM MT)"
 }
