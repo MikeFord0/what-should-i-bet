@@ -1,12 +1,12 @@
 {
-  "bet": "Seattle Seahawks -2.5",
+  "bet": "Tampa Bay Rays moneyline",
   "confidence": "low",
-  "date": "2026-10-15",
-  "event": "Seattle Seahawks at Denver Broncos",
+  "date": "2026-10-16",
+  "event": "Tampa Bay Rays at Cleveland Guardians (ALCS Game 4)",
   "model": "claude-sonnet-5-5",
-  "odds": "-111",
-  "reasoning": "Seattle has the league's top defense in yards allowed per game, and it pressures quarterbacks at a high rate. That matches up well against Bo Nix, who has struggled this season: he has been under 190 passing yards in three of five games and has an 80.8 passer rating. Seattle has also won straight-up after every loss since the start of last season, and Denver is 1-4 against the spread on Thursdays under Sean Payton. The risks are real. -2.5 is a thin margin, Seattle's offensive line has allowed nine sacks and Darnold is under heavy pressure, and Denver's blitz has produced seven takeaways. A low-scoring game could turn on one turnover, so treat this as a small lean.",
+  "odds": "-112",
+  "reasoning": "Tampa Bay is a 98-win team facing a must-win spot. It has a real starter in Nick Martinez (15-6, 3.10 ERA, rested eight days). Cleveland is expected to use Shawn Armstrong as an opener and then go to a bullpen game. The market has this as nearly a pick'em, so the home-team premium looks small, and the Rays' starting-pitching edge and 5-1 regular-season record against Cleveland aren't fully priced in. Cleveland's bullpen has been excellent and the Guardians lead the series 2-1, so this is a thin edge on a high-variance single game, not a strong lean.",
   "sources": [],
-  "sport": "NFL",
-  "start_time": "8:15 PM ET (6:15 PM MT)"
+  "sport": "MLB",
+  "start_time": "8:00 PM ET"
 }
