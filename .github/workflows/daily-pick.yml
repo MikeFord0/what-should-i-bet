@@ -7,10 +7,11 @@ name: Daily pick
 
 on:
   schedule:
-    # 6:50 AM Eastern, all year (GitHub handles daylight saving time). The run takes
-    # a couple of minutes, and GitHub can start scheduled jobs a little late,
-    # so starting before 7 means the new pick is normally up by 7.
-    - cron: "50 6 * * *"
+    # 3:00 AM Eastern, all year (GitHub handles daylight saving time).
+    # GitHub can start scheduled jobs hours late, so running in the middle of the
+    # night means the pick is still up early in the morning. By 3 AM nearly every
+    # game from the night before is final, so grading works too.
+    - cron: "0 3 * * *"
       timezone: "America/New_York"
   workflow_dispatch:        # adds a "Run workflow" button for manual runs
 

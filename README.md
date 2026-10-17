@@ -7,7 +7,7 @@ pick, the win/loss record, and the profit from betting $10 on every pick.
 ## How it works
 
 ```
-GitHub Actions (every morning, 6:50 AM ET)
+GitHub Actions (every night, 3:00 AM ET)
    │
    ├─ builds + runs  daily_pick  (C++)
    │      1. grade  pending past picks   → win / loss / push
