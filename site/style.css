@@ -7,6 +7,8 @@
   --accent: #1f7a4d;      /* "win" green */
   --line: #d9d0bb;
   --on-bg: #c9d6cd;
+  --win: #5fd08f;        /* winning money / W badges */
+  --loss: #ef7d6b;       /* losing money / L badges */
 }
 
 * { box-sizing: border-box; }
@@ -23,7 +25,7 @@ body {
   align-items: center;
 }
 
-header, .slip, footer { width: 100%; max-width: 560px; }
+header, .slip, .record, footer { width: 100%; max-width: 560px; }
 
 .eyebrow {
   font-family: "JetBrains Mono", monospace;
@@ -81,6 +83,65 @@ details a { color: var(--ink); word-break: break-word; }
 .muted { color: var(--muted); }
 .small { font-size: 0.75rem; margin: 0; }
 
+/* ---- Record + recent picks (sits on the dark background, below the slip) ---- */
+.record { margin-top: 36px; }
+
+.section-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8fb39c;
+  margin: 0 0 12px;
+}
+
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 32px; }
+
+.tile {
+  border: 1px solid rgba(201, 214, 205, 0.18);
+  border-radius: 6px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.tile-label { margin: 0 0 6px; font-size: 0.75rem; color: #8fa596; }
+.tile-value { margin: 0; font-size: clamp(1.2rem, 5vw, 1.6rem); font-weight: 600; color: #fff; }
+.tile-value.up { color: var(--win); }
+.tile-value.down { color: var(--loss); }
+
+.recent { list-style: none; margin: 0; padding: 0; }
+
+.row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(201, 214, 205, 0.12);
+}
+
+.badge {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #c9d6cd;
+}
+.row.win .badge { background: var(--win); color: #0f1a14; }
+.row.loss .badge { background: var(--loss); color: #0f1a14; }
+
+.row-text { display: flex; flex-direction: column; min-width: 0; }
+.row-text strong { color: #fff; font-weight: 500; }
+.row-text small { color: #8fa596; font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.row-money { font-size: 0.9rem; color: #8fa596; }
+.row.win .row-money { color: var(--win); }
+.row.loss .row-money { color: var(--loss); }
+
+.muted-light { color: #8fa596; font-size: 0.9rem; margin: 0; }
+
 footer { margin-top: 28px; font-size: 0.85rem; line-height: 1.5; color: #8fa596; }
 footer a { color: #cfe3d6; }
 
@@ -88,4 +149,6 @@ footer a { color: #cfe3d6; }
   .slip { padding: 22px; }
   .tear { margin-left: -22px; margin-right: -22px; }
   .stats { grid-template-columns: 1fr 1fr; }
+  .tiles { gap: 8px; }
+  .tile { padding: 10px; }
 }

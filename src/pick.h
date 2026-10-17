@@ -1,13 +1,15 @@
 #pragma once
-// pick: turns Claude's reply into the pick.json file the website reads.
+// pick: checks Claude's answers have the shape we asked for.
 
 #include <string>
 #include <nlohmann/json.hpp>
 
-// Finds Claude's JSON answer inside its reply blocks, checks every expected
-// field is present, and attaches the web pages Claude cited as "sources".
-// Throws std::runtime_error if the answer is missing or malformed.
-nlohmann::json extractPick(const nlohmann::json& replyContent);
+#include "claude_client.h"
 
-// Writes the pick to disk as nicely indented JSON.
-void writePickFile(const nlohmann::json& pick, const std::string& path);
+// Builds a new pick from Claude's answer: checks every field is present, then
+// adds the date, the sources and result "pending".
+nlohmann::json makePick(const ClaudeAnswer& answer, const std::string& date);
+
+// Applies a grading answer to a pick: sets "result" (win/loss/push/pending)
+// and "final_score". Throws if the answer doesn't make sense.
+void applyGrade(nlohmann::json& pick, const ClaudeAnswer& answer);

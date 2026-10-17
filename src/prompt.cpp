@@ -9,10 +9,11 @@ std::string todaysDate() {
     return buffer;
 }
 
-std::string buildPrompt(const std::string& date) {
-    // We ask for JSON so the C++ code can read the answer reliably,
-    // not free-form prose that would have to be picked apart.
-    return "Today is " + date + R"(.
+// Both prompts ask for JSON so the C++ code can read the answer reliably,
+// not free-form prose that would have to be picked apart.
+
+std::string buildPickPrompt(const std::string& today) {
+    return "Today is " + today + R"(.
 
 You are the analyst behind whatshouldibet.com, a site that shows one sports bet per day.
 
@@ -31,5 +32,23 @@ Reply with ONLY a JSON object, with no other text before or after it, in exactly
   "odds": "American odds, e.g. -110 or +145",
   "confidence": "low, medium, or high",
   "reasoning": "2-4 plain-English sentences explaining why"
+})";
+}
+
+std::string buildGradePrompt(const nlohmann::json& pick, const std::string& today) {
+    return "Today is " + today + ". On " + pick.value("date", "") +
+           " this sports bet was recommended:\n"
+           "  Bet:   " + pick.value("bet", "") + "\n"
+           "  Event: " + pick.value("event", "") + " (" + pick.value("sport", "") + ")\n"
+           "  Odds:  " + pick.value("odds", "") + "\n" + R"(
+Use web search to find the final result of that game and decide how the bet did.
+- "win" or "loss" as usual.
+- "push" if the bet is refunded (e.g. the margin lands exactly on the spread).
+- "pending" only if the game has not finished yet or was postponed.
+
+Reply with ONLY a JSON object, with no other text before or after it:
+{
+  "result": "win, loss, push, or pending",
+  "final_score": "e.g. Seahawks 24, Broncos 20"
 })";
 }

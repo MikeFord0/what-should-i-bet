@@ -15,8 +15,12 @@ struct ClaudeRequest {
     int maxSearches = 5;     // upper limit on web searches (each costs $0.01)
 };
 
-// Sends the prompt to Claude with the web search tool turned on.
-// Returns the "content" array of Claude's final reply: a list of blocks
-// (text, search queries, search results, ...).
-// Throws std::runtime_error if the network or the API fails.
-nlohmann::json askClaude(const ClaudeRequest& request);
+struct ClaudeAnswer {
+    nlohmann::json data;     // the JSON object Claude answered with
+    nlohmann::json sources;  // [{title, url}] of web pages Claude cited
+};
+
+// Sends the prompt to Claude with the web search tool turned on, and reads
+// the JSON object out of its final answer. The prompt must ask for JSON.
+// Throws std::runtime_error if the network, the API or the answer is bad.
+ClaudeAnswer askClaude(const ClaudeRequest& request);

@@ -1,35 +1,40 @@
 # whatshouldibet.com
 
-Once a day, a C++ program asks Claude (with web search turned on) for the best
-sports bet of the day. A static website shows the answer.
+Every morning, a C++ program asks Claude (with web search turned on) to grade
+yesterday's pick and choose today's best sports bet. A static website shows the
+pick, the win/loss record, and the profit from betting $10 on every pick.
 
 ## How it works
 
 ```
-GitHub Actions (daily, 10 AM ET)
+GitHub Actions (every morning, 6:50 AM ET)
    │
    ├─ builds + runs  daily_pick  (C++)
-   │      │
-   │      ├─ prompt.cpp         builds the question, including today's date
-   │      ├─ claude_client.cpp  HTTPS POST to the Claude API, web search on
-   │      └─ pick.cpp           pulls the JSON answer + sources out of the reply
+   │      1. grade  pending past picks   → win / loss / push
+   │      2. pick   today's bet
+   │      3. tally  record + $10-per-bet profit
    │      ▼
-   │   site/pick.json
+   │   site/picks.json   (the whole history + totals)
    │
    └─ publishes site/ to GitHub Pages
-          index.html + style.css + app.js  →  reads pick.json, shows it
+          index.html + style.css + app.js  →  reads picks.json, shows it
 ```
 
 Each piece only knows its own job:
 
 | Folder / file | Job | Knows about |
 |---|---|---|
-| `src/claude_client.*` | Talk to the Claude API | HTTP, API keys, JSON |
-| `src/prompt.*` | Decide what to ask | Betting, the date |
-| `src/pick.*` | Turn the reply into `pick.json` | The shape of the answer |
-| `src/main.cpp` | Glue: ask → parse → save | Everything, briefly |
-| `site/` | Display `pick.json` | HTML only, never sees the API key |
-| `.github/workflows/daily-pick.yml` | Run it every day and publish | GitHub |
+| `src/claude_client.*` | Talk to the Claude API, read the JSON answer | HTTP, API keys, JSON |
+| `src/prompt.*` | Decide what to ask (pick + grade) | Betting, the date |
+| `src/pick.*` | Check answers have the right fields | The shape of a pick |
+| `src/record.*` | Win/loss record and profit math | American odds |
+| `src/history.*` | Read/write `picks.json` | The file format |
+| `src/main.cpp` | Glue: grade → pick → tally → save | Everything, briefly |
+| `site/` | Display `picks.json` | HTML only, never sees the API key |
+| `.github/workflows/daily-pick.yml` | Run it every morning and publish | GitHub |
+
+**Profit math** (`record.cpp`): a win at −110 pays $10 × 100/110 = $9.09; a win at
++145 pays $10 × 145/100 = $14.50; a loss is −$10; a push (refund) is $0.
 
 ## One-time setup
 
@@ -50,7 +55,7 @@ Needs CMake, a C++17 compiler and libcurl. The easiest route on Windows is WSL (
 sudo apt install cmake g++ libcurl4-openssl-dev
 cmake -S . -B build && cmake --build build
 export ANTHROPIC_API_KEY=sk-ant-...
-./build/daily_pick site/pick.json
+./build/daily_pick site/picks.json
 ```
 
 To preview the site, serve the folder (opening index.html directly blocks `fetch`):
@@ -63,7 +68,7 @@ cd site && python3 -m http.server 8000   # then open http://localhost:8000
 
 - **The question** → `src/prompt.cpp`
 - **The model** → set the `CLAUDE_MODEL` environment variable (default `claude-sonnet-5-5`)
-- **The time it runs** → the `cron` line in the workflow (it's in UTC)
+- **The time it runs** → the `cron` line in the workflow (Eastern time, set by `timezone`)
 - **The look** → `site/style.css` (colors are at the top)
 
 For entertainment only. Must be 21+ and in a legal jurisdiction. 1-800-GAMBLER.

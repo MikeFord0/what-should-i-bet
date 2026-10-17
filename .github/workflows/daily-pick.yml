@@ -1,17 +1,21 @@
-# Runs on GitHub's servers once a day:
+# Runs on GitHub's servers every morning:
 #   1. builds the C++ program
-#   2. asks Claude for today's pick (writes site/pick.json)
-#   3. commits pick.json, so the repo keeps a history of every pick
+#   2. grades earlier picks, gets today's pick, updates the record (site/picks.json)
+#   3. commits picks.json, so the repo keeps a history of every pick
 #   4. publishes the site/ folder to GitHub Pages
 name: Daily pick
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 14:00 UTC = 10 AM Eastern (9 AM in winter)
+    # 6:50 AM Eastern, all year (GitHub handles daylight saving time). The run takes
+    # a couple of minutes, and GitHub can start scheduled jobs a little late,
+    # so starting before 7 means the new pick is normally up by 7.
+    - cron: "50 6 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:        # adds a "Run workflow" button for manual runs
 
 permissions:
-  contents: write   # to commit pick.json
+  contents: write   # to commit picks.json
   pages: write      # to publish the site
   id-token: write   # required by the Pages deploy action
 
@@ -37,17 +41,17 @@ jobs:
           cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
           cmake --build build
 
-      - name: Ask Claude
+      - name: Grade, pick and tally
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TZ: America/New_York
-        run: ./build/daily_pick site/pick.json
+        run: ./build/daily_pick site/picks.json
 
       - name: Commit the new pick
         run: |
           git config user.name "daily-pick-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/pick.json
+          git add site/picks.json
           git commit -m "Pick for $(TZ=America/New_York date +%F)" || echo "No change"
           git push
 
