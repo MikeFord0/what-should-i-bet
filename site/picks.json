@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Commanders +7.5",
+      "confidence": "low",
+      "date": "2026-10-19",
+      "event": "Washington Commanders at San Francisco 49ers",
+      "odds": "-115",
+      "reasoning": "Jayden Daniels is back at quarterback and 49ers pass rusher Nick Bosa is sitting. That makes a 7.5-point spread look a bit high for a Washington team that tied the Giants 27-27 in overtime last week. About 78% of spread bets are on San Francisco, yet the line hasn't moved off -7.5 and the price has shifted slightly toward Washington. The 49ers are unbeaten and cover well (4-1 ATS), and Washington is winless on the road. At -115 the bet needs to win about 53.5% of the time, so the edge is small and this is a modest-value play, not a strong one.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "8:15 PM ET"
+    },
+    {
       "bet": "Atlanta Falcons +1.5",
       "confidence": "low",
       "date": "2026-10-18",
       "event": "Chicago Bears at Atlanta Falcons",
+      "final_score": "Bears 31, Falcons 23",
       "odds": "-110",
       "reasoning": "Atlanta is at home and getting points against a Bears team that is thin on defense. Chicago is missing T.J. Edwards and Montez Sweat. Caleb Williams is returning from a torn hamstring after three missed games, so rust is possible. Michael Penix Jr. is expected back from his rib injury, and Atlanta has averaged 34.3 points in his three starts, with Bijan Robinson leading the NFL in rushing yards. Sharp money has reportedly backed Atlanta at +1.5 to +3, and +1.5 is a thin edge. Penix's status and Williams's fitness are both uncertain, and the -110 price is approximate because books differ slightly.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NFL",
       "start_time": "1:00 PM ET"
@@ -41,14 +54,14 @@
   ],
   "record": {
     "all_time": {
-      "losses": 1,
-      "profit": -1.07,
+      "losses": 2,
+      "profit": -11.07,
       "pushes": 0,
       "wins": 1
     },
     "last_10": {
-      "losses": 1,
-      "profit": -1.07,
+      "losses": 2,
+      "profit": -11.07,
       "pushes": 0,
       "wins": 1
     },
