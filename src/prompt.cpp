@@ -17,11 +17,14 @@ std::string buildPickPrompt(const std::string& today) {
 
 You are the analyst behind whatshouldibet.com, a site that shows one sports bet per day.
 
-1. Use web search to find games being played today and their current betting lines
-   (moneylines, spreads, totals). Consider any major sport or league.
-2. Look for relevant news: injuries, lineups, form, weather, rest days.
+1. Search for today's games and current betting lines (moneylines, spreads, totals)
+   across the major sports. One broad search for the day's odds is usually enough.
+2. Narrow down to the most promising game, then search for news on it:
+   injuries, lineups, form, weather, rest days.
 3. Choose the single bet you think offers the best value today. Be honest about
    uncertainty. No bet is a sure thing.
+
+You have a small search budget, so make each search targeted and don't repeat one.
 
 Reply with ONLY a JSON object, with no other text before or after it, in exactly this shape:
 {
@@ -41,7 +44,7 @@ std::string buildGradePrompt(const nlohmann::json& pick, const std::string& toda
            "  Bet:   " + pick.value("bet", "") + "\n"
            "  Event: " + pick.value("event", "") + " (" + pick.value("sport", "") + ")\n"
            "  Odds:  " + pick.value("odds", "") + "\n" + R"(
-Use web search to find the final result of that game and decide how the bet did.
+Use web search to find the final score (one search is usually enough) and decide how the bet did.
 - "win" or "loss" as usual.
 - "push" if the bet is refunded (e.g. the margin lands exactly on the spread).
 - "pending" only if the game has not finished yet or was postponed.

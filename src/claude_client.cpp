@@ -57,17 +57,32 @@ json postToApi(const std::string& apiKey, const json& body) {
     return json::parse(response);
 }
 
+// Adds one API reply's token counts to the running total. The API reports
+// these in "usage" on every reply; they're what you get billed for.
+void addUsage(ClaudeUsage& total, const json& reply) {
+    const json usage = reply.value("usage", json::object());
+    total.inputTokens += usage.value("input_tokens", 0) +
+                         usage.value("cache_read_input_tokens", 0) +
+                         usage.value("cache_creation_input_tokens", 0);
+    total.outputTokens += usage.value("output_tokens", 0);
+    total.searches += usage.value("server_tool_use", json::object()).value("web_search_requests", 0);
+}
+
 // Sends the conversation, continuing if the API pauses a long search turn.
 // Returns the "content" blocks of Claude's final reply.
-json sendWithWebSearch(const ClaudeRequest& request) {
+json sendWithWebSearch(const ClaudeRequest& request, ClaudeUsage& usage) {
     // A conversation is a list of messages. We start with one: our question.
     json messages = json::array();
     messages.push_back({{"role", "user"}, {"content", request.prompt}});
 
     // The web search tool runs on Anthropic's servers, so we only have to
     // switch it on. Claude decides what to search for.
+    //
+    // This version (20260209) adds "dynamic filtering": Claude runs a little
+    // code on Anthropic's servers that keeps only the relevant parts of each
+    // search result. Less text reaches Claude, so we pay for fewer input tokens.
     const json tools = json::array({{
-        {"type", "web_search_20250305"},
+        {"type", "web_search_20260209"},
         {"name", "web_search"},
         {"max_uses", request.maxSearches},
     }});
@@ -75,17 +90,24 @@ json sendWithWebSearch(const ClaudeRequest& request) {
     // If Claude is still busy searching after a long turn, the API stops early
     // with stop_reason "pause_turn". We send its partial reply back so it can
     // pick up where it left off.
+    std::string containerId;  // the server-side sandbox the filtering code runs in
     for (int attempt = 0; attempt < 5; ++attempt) {
-        const json body = {
+        json body = {
             {"model", request.model},
             {"max_tokens", request.maxTokens},
             {"messages", messages},
             {"tools", tools},
         };
+        if (!containerId.empty()) body["container"] = containerId;  // reuse it when continuing
+
         const json reply = postToApi(request.apiKey, body);
+        addUsage(usage, reply);
 
         if (reply.value("stop_reason", "") != "pause_turn") {
             return reply.at("content");
+        }
+        if (reply.contains("container") && reply["container"].is_object()) {
+            containerId = reply["container"].value("id", "");
         }
         messages.push_back({{"role", "assistant"}, {"content", reply.at("content")}});
     }
@@ -94,15 +116,13 @@ json sendWithWebSearch(const ClaudeRequest& request) {
 
 // Claude's reply is a list of blocks, for example:
 //   text                   "I'll search for today's games..."
-//   server_tool_use        the search query Claude ran
-//   web_search_tool_result the pages it found
+//   server_tool_use        a search (or the filtering code) Claude ran
+//   ..._tool_result        what came back
 //   text (with citations)  the final answer (often split into several blocks)
-// The answer is the text that comes after the last search result.
+// The answer is the run of text blocks at the very end.
 ClaudeAnswer readAnswer(const json& content) {
-    size_t start = 0;
-    for (size_t i = 0; i < content.size(); ++i) {
-        if (content[i].value("type", "") == "web_search_tool_result") start = i + 1;
-    }
+    size_t start = content.size();
+    while (start > 0 && content[start - 1].value("type", "") == "text") --start;
 
     std::string text;
     ClaudeAnswer answer;
@@ -111,7 +131,6 @@ ClaudeAnswer readAnswer(const json& content) {
 
     for (size_t i = start; i < content.size(); ++i) {
         const json& block = content[i];
-        if (block.value("type", "") != "text") continue;
         text += block.value("text", "");
 
         // Citations: the pages Claude based this text on.
@@ -141,5 +160,8 @@ ClaudeAnswer readAnswer(const json& content) {
 }  // namespace
 
 ClaudeAnswer askClaude(const ClaudeRequest& request) {
-    return readAnswer(sendWithWebSearch(request));
+    ClaudeUsage usage;
+    ClaudeAnswer answer = readAnswer(sendWithWebSearch(request, usage));
+    answer.usage = usage;
+    return answer;
 }

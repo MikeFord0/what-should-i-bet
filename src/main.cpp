@@ -6,7 +6,8 @@
 //
 // Usage:    daily_pick [path]                (default: site/picks.json)
 // Needs:    ANTHROPIC_API_KEY environment variable
-// Optional: CLAUDE_MODEL environment variable (default: claude-sonnet-5-5)
+// Optional: CLAUDE_MODEL       model that picks  (default: claude-sonnet-5-5)
+//           CLAUDE_GRADE_MODEL model that grades (default: claude-haiku-5-5)
 
 #include <cstdlib>
 #include <iostream>
@@ -24,6 +25,17 @@ namespace {
 
 const double kStake = 10.0;  // pretend we bet $10 on every pick
 
+// Search limits. Each search costs $0.01, and every page it returns adds input
+// tokens, so these are the main cost levers.
+const int kPickSearches = 4;   // schedule + odds, then news on the chosen game
+const int kGradeSearches = 2;  // a final score is a simple lookup
+
+// Prints what a question cost, so the GitHub Actions log shows where money goes.
+void printUsage(const ClaudeUsage& usage, const std::string& model) {
+    std::cout << "  [" << model << ": " << usage.inputTokens << " input tokens, "
+              << usage.outputTokens << " output tokens, " << usage.searches << " searches]\n";
+}
+
 std::string envOr(const char* name, const std::string& fallback) {
     const char* value = std::getenv(name);
     return (value && *value) ? value : fallback;
@@ -38,8 +50,10 @@ void gradePendingPicks(nlohmann::json& picks, ClaudeRequest request, const std::
         std::cout << "Grading " << date << ": " << pick.value("bet", "") << "... ";
         try {
             request.prompt = buildGradePrompt(pick, today);
-            applyGrade(pick, askClaude(request));
+            const ClaudeAnswer answer = askClaude(request);
+            applyGrade(pick, answer);
             std::cout << pick["result"].get<std::string>() << '\n';
+            printUsage(answer.usage, request.model);
         } catch (const std::exception& error) {
             std::cout << "could not grade (" << error.what() << ")\n";
         }
@@ -51,7 +65,9 @@ void gradePendingPicks(nlohmann::json& picks, ClaudeRequest request, const std::
 void addTodaysPick(nlohmann::json& picks, ClaudeRequest request, const std::string& today) {
     std::cout << "Asking for the pick of " << today << "...\n";
     request.prompt = buildPickPrompt(today);
-    const nlohmann::json pick = makePick(askClaude(request), today);
+    const ClaudeAnswer answer = askClaude(request);
+    const nlohmann::json pick = makePick(answer, today);
+    printUsage(answer.usage, request.model);
 
     if (!picks.empty() && picks[0].value("date", "") == today) picks.erase(0);
     picks.insert(picks.begin(), pick);
@@ -75,10 +91,18 @@ int main(int argc, char* argv[]) {
     int exitCode = 0;
     try {
         nlohmann::json picks = loadPicks(path);
-        gradePendingPicks(picks, request, today);
 
+        // Grading is an easy lookup, so it uses a cheaper model and fewer searches.
+        ClaudeRequest gradeRequest = request;
+        gradeRequest.model = envOr("CLAUDE_GRADE_MODEL", "claude-haiku-5-5");
+        gradeRequest.maxSearches = kGradeSearches;
+        gradeRequest.maxTokens = 1024;
+        gradePendingPicks(picks, gradeRequest, today);
+
+        ClaudeRequest pickRequest = request;
+        pickRequest.maxSearches = kPickSearches;
         try {
-            addTodaysPick(picks, request, today);
+            addTodaysPick(picks, pickRequest, today);
         } catch (const std::exception& error) {
             // Still save the grades below; the site keeps showing the last pick.
             std::cerr << "Could not get today's pick: " << error.what() << '\n';

@@ -67,7 +67,8 @@ cd site && python3 -m http.server 8000   # then open http://localhost:8000
 ## Changing things
 
 - **The question** → `src/prompt.cpp`
-- **The model** → set the `CLAUDE_MODEL` environment variable (default `claude-sonnet-5-5`)
+- **The models** → `CLAUDE_MODEL` picks (default `claude-sonnet-5-5`), `CLAUDE_GRADE_MODEL` grades (default `claude-haiku-5-5`)
+- **Cost** → the search limits at the top of `src/main.cpp`; each run prints its token and search counts in the Actions log
 - **The time it runs** → the `cron` line in the workflow (Eastern time, set by `timezone`)
 - **The look** → `site/style.css` (colors are at the top)
 
