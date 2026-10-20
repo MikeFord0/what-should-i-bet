@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Knicks -4.5",
+      "confidence": "low",
+      "date": "2026-10-20",
+      "event": "Philadelphia 76ers at New York Knicks",
+      "odds": "-109",
+      "reasoning": "The Knicks are the defending champs and open at home, and last season's net rating gap of about 6.5 points favors them by more than this spread. Embiid and James aren't on Philly's first injury report, but Simons is questionable and the new-look Sixers have little chemistry. Josh Hart's ankle is a minor concern, and Mike Brown doesn't expect it to keep him out. Opening-night variance is high and the line has already moved from -3.5 to about -4.5, so this is a small edge. I'd skip it if the number goes past -5.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:00 PM ET"
+    },
+    {
       "bet": "Commanders +7.5",
       "confidence": "low",
       "date": "2026-10-19",
       "event": "Washington Commanders at San Francisco 49ers",
+      "final_score": "49ers 23, Commanders 17",
       "odds": "-115",
       "reasoning": "Jayden Daniels is back at quarterback and 49ers pass rusher Nick Bosa is sitting. That makes a 7.5-point spread look a bit high for a Washington team that tied the Giants 27-27 in overtime last week. About 78% of spread bets are on San Francisco, yet the line hasn't moved off -7.5 and the price has shifted slightly toward Washington. The 49ers are unbeaten and cover well (4-1 ATS), and Washington is winless on the road. At -115 the bet needs to win about 53.5% of the time, so the edge is small and this is a modest-value play, not a strong one.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET"
@@ -55,15 +68,15 @@
   "record": {
     "all_time": {
       "losses": 2,
-      "profit": -11.07,
+      "profit": -2.38,
       "pushes": 0,
-      "wins": 1
+      "wins": 2
     },
     "last_10": {
       "losses": 2,
-      "profit": -11.07,
+      "profit": -2.38,
       "pushes": 0,
-      "wins": 1
+      "wins": 2
     },
     "stake": 10.0
   }
