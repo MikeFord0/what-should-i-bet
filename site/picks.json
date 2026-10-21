@@ -1,10 +1,23 @@
 {
   "picks": [
     {
+      "bet": "Timberwolves +1.5",
+      "confidence": "low",
+      "date": "2026-10-21",
+      "event": "Minnesota Timberwolves at Miami Heat",
+      "odds": "-105",
+      "reasoning": "This is a near pick'em on opening night, and the market has barely moved. The Heat are only -1.5 at home, and 62% of spread tickets are on Minnesota. Both teams are close to fully healthy. Minnesota's only absence is DiVincenzo, and Goldin is questionable for Miami. Minnesota starts Edwards and LaMelo Ball, so its perimeter shooting should help against a Heat team built around Giannis and Bam inside. Taking the points costs about the same as the moneyline and covers a one-point loss. Opening-night rotations, new rosters and no regular-season sample make this very uncertain, and it is a small edge at best.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:30 PM ET"
+    },
+    {
       "bet": "Knicks -4.5",
       "confidence": "low",
       "date": "2026-10-20",
       "event": "Philadelphia 76ers at New York Knicks",
+      "final_score": "Unverified: web search failed (tool errors and usage limit), so the 76ers at Knicks score could not be confirmed",
       "odds": "-109",
       "reasoning": "The Knicks are the defending champs and open at home, and last season's net rating gap of about 6.5 points favors them by more than this spread. Embiid and James aren't on Philly's first injury report, but Simons is questionable and the new-look Sixers have little chemistry. Josh Hart's ankle is a minor concern, and Mike Brown doesn't expect it to keep him out. Opening-night variance is high and the line has already moved from -3.5 to about -4.5, so this is a small edge. I'd skip it if the number goes past -5.",
       "result": "pending",
