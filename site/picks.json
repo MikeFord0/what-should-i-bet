@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Chicago Bears -3",
+      "confidence": "low",
+      "date": "2026-10-22",
+      "event": "New England Patriots at Chicago Bears",
+      "odds": "-102",
+      "reasoning": "New England is missing both starting guards (Vera-Tucker and Brown), starting CB Carlton Davis and two reserve corners. Right tackle Morgan Moses is also questionable. That is a lot of attrition for a road team on a short week. Chicago is mostly healthy at home, with RG Jonah Jackson cleared to play. Dimers' model gives the Bears about a 62% win probability and a cover edge, while the market has them as only a field-goal favorite. The risks are that a 3-point spread can land exactly on 3, and that New England is 4-2 and has been playing well, so this is a thin edge and not a lock.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "8:15 PM ET"
+    },
+    {
       "bet": "Timberwolves +1.5",
       "confidence": "low",
       "date": "2026-10-21",
       "event": "Minnesota Timberwolves at Miami Heat",
+      "final_score": "Timberwolves 131, Heat 106",
       "odds": "-105",
       "reasoning": "This is a near pick'em on opening night, and the market has barely moved. The Heat are only -1.5 at home, and 62% of spread tickets are on Minnesota. Both teams are close to fully healthy. Minnesota's only absence is DiVincenzo, and Goldin is questionable for Miami. Minnesota starts Edwards and LaMelo Ball, so its perimeter shooting should help against a Heat team built around Giannis and Bam inside. Taking the points costs about the same as the moneyline and covers a one-point loss. Opening-night rotations, new rosters and no regular-season sample make this very uncertain, and it is a small edge at best.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:30 PM ET"
@@ -17,10 +30,10 @@
       "confidence": "low",
       "date": "2026-10-20",
       "event": "Philadelphia 76ers at New York Knicks",
-      "final_score": "Unverified: web search failed (tool errors and usage limit), so the 76ers at Knicks score could not be confirmed",
+      "final_score": "76ers 106, Knicks 100",
       "odds": "-109",
       "reasoning": "The Knicks are the defending champs and open at home, and last season's net rating gap of about 6.5 points favors them by more than this spread. Embiid and James aren't on Philly's first injury report, but Simons is questionable and the new-look Sixers have little chemistry. Josh Hart's ankle is a minor concern, and Mike Brown doesn't expect it to keep him out. Opening-night variance is high and the line has already moved from -3.5 to about -4.5, so this is a small edge. I'd skip it if the number goes past -5.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:00 PM ET"
@@ -80,16 +93,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 2,
-      "profit": -2.38,
+      "losses": 3,
+      "profit": -2.85,
       "pushes": 0,
-      "wins": 2
+      "wins": 3
     },
     "last_10": {
-      "losses": 2,
-      "profit": -2.38,
+      "losses": 3,
+      "profit": -2.85,
       "pushes": 0,
-      "wins": 2
+      "wins": 3
     },
     "stake": 10.0
   }
