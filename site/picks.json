@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Dallas Mavericks +6.5",
+      "confidence": "low",
+      "date": "2026-10-23",
+      "event": "Dallas Mavericks at Indiana Pacers",
+      "odds": "-115",
+      "reasoning": "Indiana won 19 games last season and Dallas won 26, yet the Pacers are 6.5-point favorites, and the line has moved from -5.5 to -6.5 since open. Early-season NBA spreads this large tend to overrate small samples, such as Indiana's 1-0 start. Indiana is also missing T.J. McConnell and Johnny Furphy, with Nesmith and Sheppard questionable. Dallas has Cooper Flagg, though Kyrie Irving, Dereck Lively and Santi Aldama are all day-to-day, which could hurt. Dallas lost its opener by 18, and this is a thin-edge play at roughly a coin-flip price, with a real chance the Pacers cover.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:00 PM ET"
+    },
+    {
       "bet": "Chicago Bears -3",
       "confidence": "low",
       "date": "2026-10-22",
       "event": "New England Patriots at Chicago Bears",
+      "final_score": "Bears 30, Patriots 24",
       "odds": "-102",
       "reasoning": "New England is missing both starting guards (Vera-Tucker and Brown), starting CB Carlton Davis and two reserve corners. Right tackle Morgan Moses is also questionable. That is a lot of attrition for a road team on a short week. Chicago is mostly healthy at home, with RG Jonah Jackson cleared to play. Dimers' model gives the Bears about a 62% win probability and a cover edge, while the market has them as only a field-goal favorite. The risks are that a 3-point spread can land exactly on 3, and that New England is 4-2 and has been playing well, so this is a thin edge and not a lock.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET"
@@ -94,15 +107,15 @@
   "record": {
     "all_time": {
       "losses": 3,
-      "profit": -2.85,
+      "profit": 6.95,
       "pushes": 0,
-      "wins": 3
+      "wins": 4
     },
     "last_10": {
       "losses": 3,
-      "profit": -2.85,
+      "profit": 6.95,
       "pushes": 0,
-      "wins": 3
+      "wins": 4
     },
     "stake": 10.0
   }
