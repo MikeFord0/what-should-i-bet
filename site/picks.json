@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Atlanta Hawks moneyline",
+      "confidence": "low",
+      "date": "2026-10-24",
+      "event": "Houston Rockets at Atlanta Hawks",
+      "odds": "-120",
+      "reasoning": "Houston played the Spurs on Oct. 23, so this is the second night of a back-to-back. Reed Sheppard (knee) is out, and Fred VanVleet may also be rested. Atlanta is home and rested, and is 2-0 with a strong defense. Dimers' model puts the Hawks near 58% against a market price of about 50% to 55%. Early-season NBA samples are tiny, and Houston has Sengun and Durant, so the game is close to a toss-up. Odds also vary by book, with Hawks ML listed from -120 to +100, so shop for the best price.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "8:30 PM ET"
+    },
+    {
       "bet": "Dallas Mavericks +6.5",
       "confidence": "low",
       "date": "2026-10-23",
       "event": "Dallas Mavericks at Indiana Pacers",
+      "final_score": "Mavericks 121, Pacers 105",
       "odds": "-115",
       "reasoning": "Indiana won 19 games last season and Dallas won 26, yet the Pacers are 6.5-point favorites, and the line has moved from -5.5 to -6.5 since open. Early-season NBA spreads this large tend to overrate small samples, such as Indiana's 1-0 start. Indiana is also missing T.J. McConnell and Johnny Furphy, with Nesmith and Sheppard questionable. Dallas has Cooper Flagg, though Kyrie Irving, Dereck Lively and Santi Aldama are all day-to-day, which could hurt. Dallas lost its opener by 18, and this is a thin-edge play at roughly a coin-flip price, with a real chance the Pacers cover.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:00 PM ET"
@@ -107,15 +120,15 @@
   "record": {
     "all_time": {
       "losses": 3,
-      "profit": 6.95,
+      "profit": 15.65,
       "pushes": 0,
-      "wins": 4
+      "wins": 5
     },
     "last_10": {
       "losses": 3,
-      "profit": 6.95,
+      "profit": 15.65,
       "pushes": 0,
-      "wins": 4
+      "wins": 5
     },
     "stake": 10.0
   }
