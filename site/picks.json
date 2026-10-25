@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Denver Broncos -4.5",
+      "confidence": "low",
+      "date": "2026-10-25",
+      "event": "Denver Broncos at Arizona Cardinals",
+      "odds": "-110",
+      "reasoning": "Denver has the league's second-best defense by opponent rating and is 3-0 on the road. Arizona is 2-4, gives up more touchdowns than any other team, and has lost RB James Conner to injured reserve and traded away WR Marvin Harrison Jr. FPI gives Denver about a 69% win chance and the Squawka model about 79%. Both put the margin at roughly 5 to 9 points, which is above the 4.5 spread. The risk is Denver's offense. Bo Nix has struggled for weeks and the Broncos have been outscored on the season. Several expert picks also lean Arizona, so a close game or an upset is a real possibility.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "4:05 PM ET (2:05 PM MT / 1:05 PM local in Glendale, AZ)"
+    },
+    {
       "bet": "Atlanta Hawks moneyline",
       "confidence": "low",
       "date": "2026-10-24",
       "event": "Houston Rockets at Atlanta Hawks",
+      "final_score": "Rockets 121, Hawks 114",
       "odds": "-120",
       "reasoning": "Houston played the Spurs on Oct. 23, so this is the second night of a back-to-back. Reed Sheppard (knee) is out, and Fred VanVleet may also be rested. Atlanta is home and rested, and is 2-0 with a strong defense. Dimers' model puts the Hawks near 58% against a market price of about 50% to 55%. Early-season NBA samples are tiny, and Houston has Sengun and Durant, so the game is close to a toss-up. Odds also vary by book, with Hawks ML listed from -120 to +100, so shop for the best price.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "8:30 PM ET"
@@ -119,14 +132,14 @@
   ],
   "record": {
     "all_time": {
-      "losses": 3,
-      "profit": 15.65,
+      "losses": 4,
+      "profit": 5.65,
       "pushes": 0,
       "wins": 5
     },
     "last_10": {
-      "losses": 3,
-      "profit": 15.65,
+      "losses": 4,
+      "profit": 5.65,
       "pushes": 0,
       "wins": 5
     },
