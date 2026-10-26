@@ -1,10 +1,23 @@
 {
   "picks": [
     {
+      "bet": "Hawks +5.5 (spread)",
+      "confidence": "low",
+      "date": "2026-10-26",
+      "event": "Atlanta Hawks at Houston Rockets",
+      "odds": "-110",
+      "reasoning": "Houston closed as only a 1.5-point road favorite when these teams met on Saturday and won 121-114. Monday's line is -5 to -5.5, which looks like a big jump for home court plus VanVleet returning. The market has barely moved, and about 71% of spread tickets are on Houston, which suggests the number leans toward the public side. Atlanta is healthy apart from two minor absences, and the Rockets are thin up front with Adams out and Smart questionable. Early-season samples are small and Houston could still win comfortably, so this is a small edge. Odds are approximate (-110 at -5.0 to -5.5), so check the final number before betting.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "8:30 PM ET"
+    },
+    {
       "bet": "Denver Broncos -4.5",
       "confidence": "low",
       "date": "2026-10-25",
       "event": "Denver Broncos at Arizona Cardinals",
+      "final_score": "Unverified: web search failed repeatedly, so the final score could not be confirmed",
       "odds": "-110",
       "reasoning": "Denver has the league's second-best defense by opponent rating and is 3-0 on the road. Arizona is 2-4, gives up more touchdowns than any other team, and has lost RB James Conner to injured reserve and traded away WR Marvin Harrison Jr. FPI gives Denver about a 69% win chance and the Squawka model about 79%. Both put the margin at roughly 5 to 9 points, which is above the 4.5 spread. The risk is Denver's offense. Bo Nix has struggled for weeks and the Broncos have been outscored on the season. Several expert picks also lean Arizona, so a close game or an upset is a real possibility.",
       "result": "pending",
