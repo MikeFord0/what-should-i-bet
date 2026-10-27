@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Detroit Pistons +3.5 (some books are offering +4)",
+      "confidence": "low",
+      "date": "2026-10-27",
+      "event": "Detroit Pistons at New York Knicks",
+      "odds": "-112",
+      "reasoning": "Detroit is 3-0 and has a strong defense and a strong Cade Cunningham. The Knicks are 0-3 and have struggled to score, and they are still priced as home favorites of about 3.5 to 4 points. The Pistons are short-handed. Jalen Duren is out, and Ausar Thompson and Isaiah Joe are questionable. Those absences are probably already in the line, and a 3-0 start is a small sample. Treat this as a modest-value spread play rather than a strong edge. Check the injury news before tip-off, because a Thompson absence would weaken the case.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "8:00 PM ET"
+    },
+    {
       "bet": "Hawks +5.5 (spread)",
       "confidence": "low",
       "date": "2026-10-26",
       "event": "Atlanta Hawks at Houston Rockets",
+      "final_score": "Rockets 120, Hawks 110",
       "odds": "-110",
       "reasoning": "Houston closed as only a 1.5-point road favorite when these teams met on Saturday and won 121-114. Monday's line is -5 to -5.5, which looks like a big jump for home court plus VanVleet returning. The market has barely moved, and about 71% of spread tickets are on Houston, which suggests the number leans toward the public side. Atlanta is healthy apart from two minor absences, and the Rockets are thin up front with Adams out and Smart questionable. Early-season samples are small and Houston could still win comfortably, so this is a small edge. Odds are approximate (-110 at -5.0 to -5.5), so check the final number before betting.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "8:30 PM ET"
@@ -17,7 +30,7 @@
       "confidence": "low",
       "date": "2026-10-25",
       "event": "Denver Broncos at Arizona Cardinals",
-      "final_score": "Unverified: web search failed repeatedly, so the final score could not be confirmed",
+      "final_score": "unknown",
       "odds": "-110",
       "reasoning": "Denver has the league's second-best defense by opponent rating and is 3-0 on the road. Arizona is 2-4, gives up more touchdowns than any other team, and has lost RB James Conner to injured reserve and traded away WR Marvin Harrison Jr. FPI gives Denver about a 69% win chance and the Squawka model about 79%. Both put the margin at roughly 5 to 9 points, which is above the 4.5 spread. The risk is Denver's offense. Bo Nix has struggled for weeks and the Broncos have been outscored on the season. Several expert picks also lean Arizona, so a close game or an upset is a real possibility.",
       "result": "pending",
@@ -145,14 +158,14 @@
   ],
   "record": {
     "all_time": {
-      "losses": 4,
-      "profit": 5.65,
+      "losses": 5,
+      "profit": -4.35,
       "pushes": 0,
       "wins": 5
     },
     "last_10": {
-      "losses": 4,
-      "profit": 5.65,
+      "losses": 5,
+      "profit": -4.35,
       "pushes": 0,
       "wins": 5
     },
