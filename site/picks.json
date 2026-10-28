@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Wizards +9.5",
+      "confidence": "low",
+      "date": "2026-10-28",
+      "event": "Washington Wizards at Cleveland Cavaliers",
+      "odds": "+104",
+      "reasoning": "The Cavaliers are a healthy, heavy favorite, but 9.5 points looks like too many for a game in October. One computer model projects a Cleveland win by about 8, and another puts the Wizards' cover chance near 55% with roughly a 6% edge. Washington is missing Jamir Watkins, Tristan Vukcevic and Justin Champagnie, and AJ Dybantsa is questionable with an ankle injury, so check the injury report before tip-off. This is a small-edge value play on the spread, and Cleveland could easily win by double digits.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:00 PM ET"
+    },
+    {
       "bet": "Detroit Pistons +3.5 (some books are offering +4)",
       "confidence": "low",
       "date": "2026-10-27",
       "event": "Detroit Pistons at New York Knicks",
+      "final_score": "Knicks 111, Pistons 97",
       "odds": "-112",
       "reasoning": "Detroit is 3-0 and has a strong defense and a strong Cade Cunningham. The Knicks are 0-3 and have struggled to score, and they are still priced as home favorites of about 3.5 to 4 points. The Pistons are short-handed. Jalen Duren is out, and Ausar Thompson and Isaiah Joe are questionable. Those absences are probably already in the line, and a 3-0 start is a small sample. Treat this as a modest-value spread play rather than a strong edge. Check the injury news before tip-off, because a Thompson absence would weaken the case.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "8:00 PM ET"
@@ -30,7 +43,7 @@
       "confidence": "low",
       "date": "2026-10-25",
       "event": "Denver Broncos at Arizona Cardinals",
-      "final_score": "unknown",
+      "final_score": "unavailable: score lookup failed (search tool error), so the game result could not be verified",
       "odds": "-110",
       "reasoning": "Denver has the league's second-best defense by opponent rating and is 3-0 on the road. Arizona is 2-4, gives up more touchdowns than any other team, and has lost RB James Conner to injured reserve and traded away WR Marvin Harrison Jr. FPI gives Denver about a 69% win chance and the Squawka model about 79%. Both put the margin at roughly 5 to 9 points, which is above the 4.5 spread. The risk is Denver's offense. Bo Nix has struggled for weeks and the Broncos have been outscored on the season. Several expert picks also lean Arizona, so a close game or an upset is a real possibility.",
       "result": "pending",
@@ -158,8 +171,8 @@
   ],
   "record": {
     "all_time": {
-      "losses": 5,
-      "profit": -4.35,
+      "losses": 6,
+      "profit": -14.35,
       "pushes": 0,
       "wins": 5
     },
