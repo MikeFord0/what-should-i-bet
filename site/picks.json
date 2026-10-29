@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Cleveland Cavaliers moneyline",
+      "confidence": "low",
+      "date": "2026-10-29",
+      "event": "Cleveland Cavaliers at Atlanta Hawks",
+      "odds": "+102",
+      "reasoning": "The line is close to a pick'em, and the Cavaliers are 3-1 and on a three-game winning streak. The Hawks are 2-3 and just lost 129-117 to Miami. Injury reports show no major Cavs rotation players out (only Tomlin out and Diop day-to-day), and the Hawks are missing Gueye and Veesaar. Both teams are on the second night of a back-to-back, so rest doesn't favor either side. One model I found rates Cleveland about 55% to win, which against roughly even odds gives a small edge. That's a thin edge in a coin-flip game early in the season, and odds vary by book (some show the Cavs at -108), so shop for the best price.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "8:00 PM ET"
+    },
+    {
       "bet": "Wizards +9.5",
       "confidence": "low",
       "date": "2026-10-28",
       "event": "Washington Wizards at Cleveland Cavaliers",
+      "final_score": "Cavaliers 121, Wizards 111",
       "odds": "+104",
       "reasoning": "The Cavaliers are a healthy, heavy favorite, but 9.5 points looks like too many for a game in October. One computer model projects a Cleveland win by about 8, and another puts the Wizards' cover chance near 55% with roughly a 6% edge. Washington is missing Jamir Watkins, Tristan Vukcevic and Justin Champagnie, and AJ Dybantsa is questionable with an ankle injury, so check the injury report before tip-off. This is a small-edge value play on the spread, and Cleveland could easily win by double digits.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:00 PM ET"
@@ -43,10 +56,10 @@
       "confidence": "low",
       "date": "2026-10-25",
       "event": "Denver Broncos at Arizona Cardinals",
-      "final_score": "unavailable: score lookup failed (search tool error), so the game result could not be verified",
+      "final_score": "Broncos 30, Cardinals 16",
       "odds": "-110",
       "reasoning": "Denver has the league's second-best defense by opponent rating and is 3-0 on the road. Arizona is 2-4, gives up more touchdowns than any other team, and has lost RB James Conner to injured reserve and traded away WR Marvin Harrison Jr. FPI gives Denver about a 69% win chance and the Squawka model about 79%. Both put the margin at roughly 5 to 9 points, which is above the 4.5 spread. The risk is Denver's offense. Bo Nix has struggled for weeks and the Broncos have been outscored on the season. Several expert picks also lean Arizona, so a close game or an upset is a real possibility.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "4:05 PM ET (2:05 PM MT / 1:05 PM local in Glendale, AZ)"
@@ -171,14 +184,14 @@
   ],
   "record": {
     "all_time": {
-      "losses": 6,
-      "profit": -14.35,
+      "losses": 7,
+      "profit": -15.26,
       "pushes": 0,
-      "wins": 5
+      "wins": 6
     },
     "last_10": {
       "losses": 5,
-      "profit": -4.35,
+      "profit": -4.19,
       "pushes": 0,
       "wins": 5
     },
