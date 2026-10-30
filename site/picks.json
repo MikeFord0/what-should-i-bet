@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Under 228.5 points",
+      "confidence": "low",
+      "date": "2026-10-30",
+      "event": "New York Knicks at Philadelphia 76ers",
+      "odds": "-110",
+      "reasoning": "Two computer models project about 219 total points, roughly 10 below the posted 228.5. Only one of the Knicks' five games and one of the 76ers' five games have gone over this number, and the average total in each team's games has been lower than 228.5. The sources disagree on who is favored and by how much, so the side is too murky to bet. The total is the more consistent edge. The -110 price is a typical estimate, not a quoted line, so check the actual number before betting. Early-season samples are small and a hot shooting night can sink any under.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:30 PM ET"
+    },
+    {
       "bet": "Cleveland Cavaliers moneyline",
       "confidence": "low",
       "date": "2026-10-29",
       "event": "Cleveland Cavaliers at Atlanta Hawks",
+      "final_score": "Hawks 114, Cavaliers 111",
       "odds": "+102",
       "reasoning": "The line is close to a pick'em, and the Cavaliers are 3-1 and on a three-game winning streak. The Hawks are 2-3 and just lost 129-117 to Miami. Injury reports show no major Cavs rotation players out (only Tomlin out and Diop day-to-day), and the Hawks are missing Gueye and Veesaar. Both teams are on the second night of a back-to-back, so rest doesn't favor either side. One model I found rates Cleveland about 55% to win, which against roughly even odds gives a small edge. That's a thin edge in a coin-flip game early in the season, and odds vary by book (some show the Cavs at -108), so shop for the best price.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "8:00 PM ET"
@@ -184,16 +197,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 7,
-      "profit": -15.26,
+      "losses": 8,
+      "profit": -25.26,
       "pushes": 0,
       "wins": 6
     },
     "last_10": {
-      "losses": 5,
-      "profit": -4.19,
+      "losses": 6,
+      "profit": -22.89,
       "pushes": 0,
-      "wins": 5
+      "wins": 4
     },
     "stake": 10.0
   }
