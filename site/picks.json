@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Arizona +3.5",
+      "confidence": "low",
+      "date": "2026-10-31",
+      "event": "Arizona at Texas Tech",
+      "odds": "-108",
+      "reasoning": "This is a matchup of two 6-1 ranked Big 12 teams. Texas Tech's offense has been shaky: quarterback Will Hammond has been turnover-prone, and Tech has one of the least explosive passing attacks in the country. Arizona's defense allows about 4.7 yards per play, which is among the best in the nation. The line has drifted from Texas Tech -4.5 to -3.5, and the +3.5 sits right on the key number of 3. Arizona is short several receivers, and the price is only the BetMGM quote of 1.93 decimal, which converts to roughly -108. Taking the points gives a cushion in what looks like a low-scoring game, but this is a small edge and a one-score game could go either way.",
+      "result": "pending",
+      "sources": [],
+      "sport": "College Football (NCAAF)",
+      "start_time": "12:00 PM ET (11:00 AM CT)"
+    },
+    {
       "bet": "Under 228.5 points",
       "confidence": "low",
       "date": "2026-10-30",
       "event": "New York Knicks at Philadelphia 76ers",
+      "final_score": "76ers 98, Knicks 93",
       "odds": "-110",
       "reasoning": "Two computer models project about 219 total points, roughly 10 below the posted 228.5. Only one of the Knicks' five games and one of the 76ers' five games have gone over this number, and the average total in each team's games has been lower than 228.5. The sources disagree on who is favored and by how much, so the side is too murky to bet. The total is the more consistent edge. The -110 price is a typical estimate, not a quoted line, so check the actual number before betting. Early-season samples are small and a hot shooting night can sink any under.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:30 PM ET"
@@ -198,15 +211,15 @@
   "record": {
     "all_time": {
       "losses": 8,
-      "profit": -25.26,
+      "profit": -16.17,
       "pushes": 0,
-      "wins": 6
+      "wins": 7
     },
     "last_10": {
-      "losses": 6,
-      "profit": -22.89,
+      "losses": 5,
+      "profit": -3.79,
       "pushes": 0,
-      "wins": 4
+      "wins": 5
     },
     "stake": 10.0
   }
