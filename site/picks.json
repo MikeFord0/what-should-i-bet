@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Ravens +3",
+      "confidence": "low",
+      "date": "2026-11-01",
+      "event": "Baltimore Ravens at Buffalo Bills",
+      "odds": "-104",
+      "reasoning": "Lamar Jackson returns from a three-game ankle absence with no injury designation. He has had three full practices, though he says the ankle is still sore. The Ravens' record and recent results reflect games played without him, so the market may not fully price in his return. Buffalo is 5-1 and Josh Allen is the MVP front-runner, but the Bills have several players listed as questionable, including OT Spencer Brown, TE Dalton Kincaid and WR DJ Moore. Getting a field goal of cushion with a healthy Jackson is a small edge. A one-score game is likely, but Buffalo could still win by exactly 3 or more. Lines also vary by book, with +3.5 available at some.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "1:00 PM ET"
+    },
+    {
       "bet": "Arizona +3.5",
       "confidence": "low",
       "date": "2026-10-31",
       "event": "Arizona at Texas Tech",
+      "final_score": "Texas Tech 34, Arizona 26",
       "odds": "-108",
       "reasoning": "This is a matchup of two 6-1 ranked Big 12 teams. Texas Tech's offense has been shaky: quarterback Will Hammond has been turnover-prone, and Tech has one of the least explosive passing attacks in the country. Arizona's defense allows about 4.7 yards per play, which is among the best in the nation. The line has drifted from Texas Tech -4.5 to -3.5, and the +3.5 sits right on the key number of 3. Arizona is short several receivers, and the price is only the BetMGM quote of 1.93 decimal, which converts to roughly -108. Taking the points gives a cushion in what looks like a low-scoring game, but this is a small edge and a one-score game could go either way.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "College Football (NCAAF)",
       "start_time": "12:00 PM ET (11:00 AM CT)"
@@ -210,16 +223,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 8,
-      "profit": -16.17,
+      "losses": 9,
+      "profit": -26.17,
       "pushes": 0,
       "wins": 7
     },
     "last_10": {
-      "losses": 5,
-      "profit": -3.79,
+      "losses": 6,
+      "profit": -23.32,
       "pushes": 0,
-      "wins": 5
+      "wins": 4
     },
     "stake": 10.0
   }
