@@ -1,10 +1,23 @@
 {
   "picks": [
     {
+      "bet": "Bears +3.0",
+      "confidence": "low",
+      "date": "2026-11-02",
+      "event": "Chicago Bears at Seattle Seahawks",
+      "odds": "-103",
+      "reasoning": "Seattle is a 3-point home favorite, and that is the most common margin in the NFL, so the +3 is worth a lot. The Bears' offense has looked strong since Caleb Williams came back from his hamstring injury. He has thrown for 300+ yards in back-to-back games with no interceptions. Seattle is also missing starting LT Charles Cross and WR Rashid Shaheed, and its replacement left tackle is shaky against a Bears pass rush that is back to full strength. The risks are real. Seattle's defense is elite and the game is in a tough road environment. Chicago is also without RB Kyle Monangai, so this is a small edge on a close game, not a confident pick.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "8:15 PM ET (7:15 PM CT, Monday Night Football)"
+    },
+    {
       "bet": "Ravens +3",
       "confidence": "low",
       "date": "2026-11-01",
       "event": "Baltimore Ravens at Buffalo Bills",
+      "final_score": "unavailable",
       "odds": "-104",
       "reasoning": "Lamar Jackson returns from a three-game ankle absence with no injury designation. He has had three full practices, though he says the ankle is still sore. The Ravens' record and recent results reflect games played without him, so the market may not fully price in his return. Buffalo is 5-1 and Josh Allen is the MVP front-runner, but the Bills have several players listed as questionable, including OT Spencer Brown, TE Dalton Kincaid and WR DJ Moore. Getting a field goal of cushion with a healthy Jackson is a small edge. A one-score game is likely, but Buffalo could still win by exactly 3 or more. Lines also vary by book, with +3.5 available at some.",
       "result": "pending",
