@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Edmonton Oilers moneyline",
+      "confidence": "low",
+      "date": "2026-11-03",
+      "event": "Edmonton Oilers at New Jersey Devils",
+      "odds": "+130",
+      "reasoning": "One source lists the Devils at -158 and the Oilers at +130, which implies Edmonton wins about 43.5% of the time. Dimers' model puts the Oilers at about 46.6%, so the price looks slightly generous. Edmonton has won three of its four games as an underdog this season. The risks are real. Goalie Frederik Andersen is out with a knee injury, Zach Hyman is on injured reserve, and New Jersey is strong at home (6-2). Other books show the Oilers anywhere from about +102 to +130, so only take this if you can get plus money of +120 or better, and treat it as a small edge rather than a strong play.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NHL",
+      "start_time": "7:30 PM ET"
+    },
+    {
       "bet": "Bears +3.0",
       "confidence": "low",
       "date": "2026-11-02",
       "event": "Chicago Bears at Seattle Seahawks",
+      "final_score": "Bears 34, Seahawks 17",
       "odds": "-103",
       "reasoning": "Seattle is a 3-point home favorite, and that is the most common margin in the NFL, so the +3 is worth a lot. The Bears' offense has looked strong since Caleb Williams came back from his hamstring injury. He has thrown for 300+ yards in back-to-back games with no interceptions. Seattle is also missing starting LT Charles Cross and WR Rashid Shaheed, and its replacement left tackle is shaky against a Bears pass rush that is back to full strength. The risks are real. Seattle's defense is elite and the game is in a tough road environment. Chicago is also without RB Kyle Monangai, so this is a small edge on a close game, not a confident pick.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET (7:15 PM CT, Monday Night Football)"
@@ -237,13 +250,13 @@
   "record": {
     "all_time": {
       "losses": 9,
-      "profit": -26.17,
+      "profit": -16.46,
       "pushes": 0,
-      "wins": 7
+      "wins": 8
     },
     "last_10": {
       "losses": 6,
-      "profit": -23.32,
+      "profit": -23.41,
       "pushes": 0,
       "wins": 4
     },
