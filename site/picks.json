@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Under 217.5 points",
+      "confidence": "low",
+      "date": "2026-11-04",
+      "event": "Philadelphia 76ers at Detroit Pistons",
+      "odds": "-106",
+      "reasoning": "This is a matchup of the East's two best records, and Detroit's defense is a strength. The Pistons won the first meeting 106-93 on Oct. 25, which finished well under this total. Duren (hamstring) and Isaiah Joe (hip) are out for Detroit, and Barlow and Hukporti are out for Philly. Those absences thin out depth on both sides more than they add scoring. Other books have this total as high as 219.5, so -106 at 217.5 is the best price I found. The edge is small, and one hot shooting night or an Embiid return could push it over, so treat this as a modest lean.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "7:00 PM ET"
+    },
+    {
       "bet": "Edmonton Oilers moneyline",
       "confidence": "low",
       "date": "2026-11-03",
       "event": "Edmonton Oilers at New Jersey Devils",
+      "final_score": "Oilers 3, Devils 4 (SO)",
       "odds": "+130",
       "reasoning": "One source lists the Devils at -158 and the Oilers at +130, which implies Edmonton wins about 43.5% of the time. Dimers' model puts the Oilers at about 46.6%, so the price looks slightly generous. Edmonton has won three of its four games as an underdog this season. The risks are real. Goalie Frederik Andersen is out with a knee injury, Zach Hyman is on injured reserve, and New Jersey is strong at home (6-2). Other books show the Oilers anywhere from about +102 to +130, so only take this if you can get plus money of +120 or better, and treat it as a small edge rather than a strong play.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NHL",
       "start_time": "7:30 PM ET"
@@ -30,10 +43,10 @@
       "confidence": "low",
       "date": "2026-11-01",
       "event": "Baltimore Ravens at Buffalo Bills",
-      "final_score": "unavailable",
+      "final_score": "Bills 36, Ravens 10",
       "odds": "-104",
       "reasoning": "Lamar Jackson returns from a three-game ankle absence with no injury designation. He has had three full practices, though he says the ankle is still sore. The Ravens' record and recent results reflect games played without him, so the market may not fully price in his return. Buffalo is 5-1 and Josh Allen is the MVP front-runner, but the Bills have several players listed as questionable, including OT Spencer Brown, TE Dalton Kincaid and WR DJ Moore. Getting a field goal of cushion with a healthy Jackson is a small edge. A one-score game is likely, but Buffalo could still win by exactly 3 or more. Lines also vary by book, with +3.5 available at some.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NFL",
       "start_time": "1:00 PM ET"
@@ -249,16 +262,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 9,
-      "profit": -16.46,
+      "losses": 11,
+      "profit": -36.46,
       "pushes": 0,
       "wins": 8
     },
     "last_10": {
-      "losses": 6,
-      "profit": -23.41,
+      "losses": 7,
+      "profit": -42.11,
       "pushes": 0,
-      "wins": 4
+      "wins": 3
     },
     "stake": 10.0
   }
