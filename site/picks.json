@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Under 39.5 points",
+      "confidence": "low",
+      "date": "2026-11-05",
+      "event": "Jacksonville Jaguars at Baltimore Ravens",
+      "odds": "-108",
+      "reasoning": "Lamar Jackson and Tyler Huntley are both on injured reserve. Undrafted rookie Joe Fagnano starts his first game on a sore ankle, and he managed only 91 passing yards in relief last week. Baltimore will probably lean on its run game and defense, and Jacksonville has no reason to push the pace as a big favorite, so a low-scoring game is likely. The total has already fallen from 42.5 to 39.5, so some of the value is gone. A Jaguars blowout or a few defensive or special-teams touchdowns could still push it over, so this is a small-edge play. The price is -108 at BetRivers and about -102 elsewhere.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "8:15 PM ET"
+    },
+    {
       "bet": "Under 217.5 points",
       "confidence": "low",
       "date": "2026-11-04",
       "event": "Philadelphia 76ers at Detroit Pistons",
+      "final_score": "76ers 112, Pistons 106",
       "odds": "-106",
       "reasoning": "This is a matchup of the East's two best records, and Detroit's defense is a strength. The Pistons won the first meeting 106-93 on Oct. 25, which finished well under this total. Duren (hamstring) and Isaiah Joe (hip) are out for Detroit, and Barlow and Hukporti are out for Philly. Those absences thin out depth on both sides more than they add scoring. Other books have this total as high as 219.5, so -106 at 217.5 is the best price I found. The edge is small, and one hot shooting night or an Embiid return could push it over, so treat this as a modest lean.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "7:00 PM ET"
@@ -262,16 +275,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 11,
-      "profit": -36.46,
+      "losses": 12,
+      "profit": -46.46,
       "pushes": 0,
       "wins": 8
     },
     "last_10": {
-      "losses": 7,
-      "profit": -42.11,
+      "losses": 8,
+      "profit": -61.2,
       "pushes": 0,
-      "wins": 3
+      "wins": 2
     },
     "stake": 10.0
   }
