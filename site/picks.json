@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "76ers -1.5",
+      "confidence": "low",
+      "date": "2026-11-06",
+      "event": "Philadelphia 76ers at Cleveland Cavaliers",
+      "odds": "-114",
+      "reasoning": "The 76ers are 8-1 and have the league's 2nd-ranked defense (105.3 defensive rating). The Cavaliers are 4-4 and have several rotation players banged up. Jarrett Allen, Tyrese Proctor and Peyton Watson are questionable, and Jaylon Tyson is out. I'm taking the short -1.5 spread at -114 because the number is small and the price is better than the -132 moneyline. Spreads vary by book (-1.5 to -2.5). The 76ers' offense is mediocre (21st), and the Cavaliers' offense is strong (6th) at home. This is a thin edge, not a lock, and Allen's status could move the line.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA (NBA Cup group play)",
+      "start_time": "7:30 PM ET"
+    },
+    {
       "bet": "Under 39.5 points",
       "confidence": "low",
       "date": "2026-11-05",
       "event": "Jacksonville Jaguars at Baltimore Ravens",
+      "final_score": "Jaguars 33, Ravens 10",
       "odds": "-108",
       "reasoning": "Lamar Jackson and Tyler Huntley are both on injured reserve. Undrafted rookie Joe Fagnano starts his first game on a sore ankle, and he managed only 91 passing yards in relief last week. Baltimore will probably lean on its run game and defense, and Jacksonville has no reason to push the pace as a big favorite, so a low-scoring game is likely. The total has already fallen from 42.5 to 39.5, so some of the value is gone. A Jaguars blowout or a few defensive or special-teams touchdowns could still push it over, so this is a small-edge play. The price is -108 at BetRivers and about -102 elsewhere.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET"
@@ -275,8 +288,8 @@
   ],
   "record": {
     "all_time": {
-      "losses": 12,
-      "profit": -46.46,
+      "losses": 13,
+      "profit": -56.46,
       "pushes": 0,
       "wins": 8
     },
