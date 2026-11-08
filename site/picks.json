@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Buccaneers +6.5",
+      "confidence": "low",
+      "date": "2026-11-08",
+      "event": "Tampa Bay Buccaneers at Chicago Bears",
+      "odds": "-115",
+      "reasoning": "Chicago is the better team at 6-2, but a 6.5-point spread is a lot for a Bears side that just played Monday night and lost starting left tackle Braxton Jones for the season. Tampa Bay is mostly healthy: WR Emeka Egbuka and LT Tristan Wirfs both look set to play. Their one absence is OLB Yaya Diaby. The Bucs also have a strong run game and are on a two-game win streak. Getting more than a touchdown covers the key numbers of 6 and 7 in a game with a 47.5 total. Some books list Bears -6 or -5.5, so shop for the best number. The risk is that Chicago's explosive offense wins comfortably, and the Bears are 7-3 in their last 10 home games.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "8:20 PM ET (7:20 PM CT)"
+    },
+    {
       "bet": "Miami +7",
       "confidence": "low",
       "date": "2026-11-07",
       "event": "Miami Hurricanes at Notre Dame Fighting Irish",
+      "final_score": "Notre Dame 31, Miami 24",
       "odds": "-105",
       "reasoning": "The No. 1 and undefeated Hurricanes have Darian Mensah, one of the country's most efficient QBs. The line has moved from Notre Dame -5.5 or -3.5 at the open to about -7 after WR Malachi Toney's ankle injury. That looks like a slight overreaction for a team that still has plenty of passing talent. Notre Dame is also missing LB Drayk Bowen and CB DJ McKinney. Seven is a key number, so you're buying the hook-ish side of a game that is likely to be close and high-scoring. Miami is 1-9 all-time at South Bend, Toney is out, and a Notre Dame win by exactly 7 would push, so the edge is small and the uncertainty is real.",
-      "result": "pending",
+      "result": "push",
       "sources": [],
       "sport": "College Football (NCAAF)",
       "start_time": "7:30 PM ET"
@@ -17,9 +30,10 @@
       "confidence": "low",
       "date": "2026-11-06",
       "event": "Philadelphia 76ers at Cleveland Cavaliers",
+      "final_score": "Cavaliers 119, 76ers 95",
       "odds": "-114",
       "reasoning": "The 76ers are 8-1 and have the league's 2nd-ranked defense (105.3 defensive rating). The Cavaliers are 4-4 and have several rotation players banged up. Jarrett Allen, Tyrese Proctor and Peyton Watson are questionable, and Jaylon Tyson is out. I'm taking the short -1.5 spread at -114 because the number is small and the price is better than the -132 moneyline. Spreads vary by book (-1.5 to -2.5). The 76ers' offense is mediocre (21st), and the Cavaliers' offense is strong (6th) at home. This is a thin edge, not a lock, and Allen's status could move the line.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA (NBA Cup group play)",
       "start_time": "7:30 PM ET"
@@ -300,15 +314,15 @@
   ],
   "record": {
     "all_time": {
-      "losses": 13,
-      "profit": -56.46,
-      "pushes": 0,
+      "losses": 14,
+      "profit": -66.46,
+      "pushes": 1,
       "wins": 8
     },
     "last_10": {
-      "losses": 8,
-      "profit": -61.2,
-      "pushes": 0,
+      "losses": 7,
+      "profit": -51.2,
+      "pushes": 1,
       "wins": 2
     },
     "stake": 10.0
