@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "New Orleans Pelicans +9.5",
+      "confidence": "low",
+      "date": "2026-11-09",
+      "event": "New Orleans Pelicans at Golden State Warriors",
+      "odds": "-110",
+      "reasoning": "Golden State has won seven straight, but it is laying 9.5 points. That is a bigger number than the one it laid at home against Memphis, and the line has moved between -8.5 and -9.5 all day. The Warriors are thin: Butler, Moody, Porzingis and Richard are out, and Green and Podziemski have recently dealt with back issues. New Orleans has only Yves Missi listed as out. Double-digit NBA spreads are often too large, and the Pelicans can score with Murphy, Williamson and Murray. Counterpoints: New Orleans is on the second night of a back-to-back after playing at the Clippers on Sunday, it has a weak defense (about 121 points allowed per game), and Curry is scoring more than 35 a night over the last five games. I'm treating this as a small-edge play on the number, not a strong lean.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "10:00 PM ET (7:00 PM PT)"
+    },
+    {
       "bet": "Buccaneers +6.5",
       "confidence": "low",
       "date": "2026-11-08",
       "event": "Tampa Bay Buccaneers at Chicago Bears",
+      "final_score": "Bears 27, Buccaneers 24",
       "odds": "-115",
       "reasoning": "Chicago is the better team at 6-2, but a 6.5-point spread is a lot for a Bears side that just played Monday night and lost starting left tackle Braxton Jones for the season. Tampa Bay is mostly healthy: WR Emeka Egbuka and LT Tristan Wirfs both look set to play. Their one absence is OLB Yaya Diaby. The Bucs also have a strong run game and are on a two-game win streak. Getting more than a touchdown covers the key numbers of 6 and 7 in a game with a 47.5 total. Some books list Bears -6 or -5.5, so shop for the best number. The risk is that Chicago's explosive offense wins comfortably, and the Bears are 7-3 in their last 10 home games.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:20 PM ET (7:20 PM CT)"
@@ -315,15 +328,15 @@
   "record": {
     "all_time": {
       "losses": 14,
-      "profit": -66.46,
+      "profit": -57.77,
       "pushes": 1,
-      "wins": 8
+      "wins": 9
     },
     "last_10": {
-      "losses": 7,
-      "profit": -51.2,
+      "losses": 6,
+      "profit": -32.5,
       "pushes": 1,
-      "wins": 2
+      "wins": 3
     },
     "stake": 10.0
   }
