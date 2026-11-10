@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Boston Celtics moneyline",
+      "confidence": "low",
+      "date": "2026-11-10",
+      "event": "Boston Celtics at Philadelphia 76ers",
+      "odds": "-105",
+      "reasoning": "This is essentially a pick'em between the top two teams in the East. Boston (8-2) is fully healthy with no injuries listed, and Tatum is averaging 27.1 points. Philadelphia is thin up front, with Bona and Barlow out and Embiid managing a foot issue, though he is expected to play. Tony's Picks has Boston about 3.3 points better, and Dimers shows a 4.5% edge on Boston to win, yet the market has the Celtics at roughly -105 to -121. The best available price of -105 at BetRivers is close to even money. Treat this as a small edge in a toss-up, not a lock, because Embiid's status and a road game in a hostile building both add risk.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "8:00 PM ET"
+    },
+    {
       "bet": "New Orleans Pelicans +9.5",
       "confidence": "low",
       "date": "2026-11-09",
       "event": "New Orleans Pelicans at Golden State Warriors",
+      "final_score": "Warriors 138, Pelicans 87",
       "odds": "-110",
       "reasoning": "Golden State has won seven straight, but it is laying 9.5 points. That is a bigger number than the one it laid at home against Memphis, and the line has moved between -8.5 and -9.5 all day. The Warriors are thin: Butler, Moody, Porzingis and Richard are out, and Green and Podziemski have recently dealt with back issues. New Orleans has only Yves Missi listed as out. Double-digit NBA spreads are often too large, and the Pelicans can score with Murphy, Williamson and Murray. Counterpoints: New Orleans is on the second night of a back-to-back after playing at the Clippers on Sunday, it has a weak defense (about 121 points allowed per game), and Curry is scoring more than 35 a night over the last five games. I'm treating this as a small-edge play on the number, not a strong lean.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "10:00 PM ET (7:00 PM PT)"
@@ -327,16 +340,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 14,
-      "profit": -57.77,
+      "losses": 15,
+      "profit": -67.77,
       "pushes": 1,
       "wins": 9
     },
     "last_10": {
-      "losses": 6,
-      "profit": -32.5,
+      "losses": 7,
+      "profit": -51.6,
       "pushes": 1,
-      "wins": 3
+      "wins": 2
     },
     "stake": 10.0
   }
