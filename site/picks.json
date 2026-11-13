@@ -1,10 +1,23 @@
 {
   "picks": [
     {
+      "bet": "Vancouver Canucks moneyline",
+      "confidence": "low",
+      "date": "2026-11-13",
+      "event": "New York Rangers at Vancouver Canucks",
+      "odds": "+203",
+      "reasoning": "The Rangers are the better team and the market has them at roughly 68%. That price looks a little too high. Dimers' model puts the Canucks at about 35.7% against the roughly 33% implied by the +203 price, and the Canucks get Filip Chytil back from injury and play at home. The Rangers are starting Joonas Korpisalo with Igor Shesterkin out for the season. This is a thin edge on a bad team (17 losses in 20 games, 31st in expected-goals share), so expect to lose this bet about two times in three. The odds are an approximate conversion of Novig's 33¢ price, so check your own book before betting.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NHL",
+      "start_time": "9:00 PM ET (6:00 PM PT)"
+    },
+    {
       "bet": "Under 41.5 points",
       "confidence": "low",
       "date": "2026-11-12",
       "event": "Washington Commanders at New York Giants",
+      "final_score": "unknown (search unavailable)",
       "odds": "-108",
       "reasoning": "The Giants have a strong defense and are 6-2 against the spread. Jayden Daniels should face heavy pressure, and a Giants offense with an injury-limited J.J. McCarthy (hip) may lean on the run and shorten the game. The total sits at 41 to 41.5 depending on the book, so the price is fair and not a bargain. I like the Under over the spread because the Giants line has already moved from -1.5 to -2.5, which removes the value on that side. Football totals are volatile and McCarthy's status adds uncertainty, so this is a small edge at best.",
       "result": "pending",
@@ -17,10 +30,10 @@
       "confidence": "low",
       "date": "2026-11-10",
       "event": "Boston Celtics at Philadelphia 76ers",
-      "final_score": "unavailable",
+      "final_score": "Celtics 123, 76ers 101",
       "odds": "-105",
       "reasoning": "This is essentially a pick'em between the top two teams in the East. Boston (8-2) is fully healthy with no injuries listed, and Tatum is averaging 27.1 points. Philadelphia is thin up front, with Bona and Barlow out and Embiid managing a foot issue, though he is expected to play. Tony's Picks has Boston about 3.3 points better, and Dimers shows a 4.5% edge on Boston to win, yet the market has the Celtics at roughly -105 to -121. The best available price of -105 at BetRivers is close to even money. Treat this as a small edge in a toss-up, not a lock, because Embiid's status and a road game in a hostile building both add risk.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NBA",
       "start_time": "8:00 PM ET"
@@ -354,15 +367,15 @@
   "record": {
     "all_time": {
       "losses": 15,
-      "profit": -67.77,
+      "profit": -58.24,
       "pushes": 1,
-      "wins": 9
+      "wins": 10
     },
     "last_10": {
-      "losses": 7,
-      "profit": -51.6,
+      "losses": 6,
+      "profit": -32.07,
       "pushes": 1,
-      "wins": 2
+      "wins": 3
     },
     "stake": 10.0
   }
