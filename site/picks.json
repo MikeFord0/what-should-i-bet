@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Tennessee -2.5",
+      "confidence": "low",
+      "date": "2026-11-14",
+      "event": "Tennessee at Texas A&M",
+      "odds": "-114",
+      "reasoning": "Tennessee is the No. 8 team and comes in with momentum. It beat Kentucky 34-6 and ran for 240 yards behind DeSean Bishop, who has over 1,000 rushing yards. A&M is also missing key pieces, including two offensive linemen and several receivers, and WR Mario Craver is questionable. The risk is real: Tennessee has a growing injury list, including its sack leader Tyree Weathersby and two offensive linemen, and it is playing a road game at Kyle Field. A short spread on a game this tight could easily come down to a single field goal. The -114 price is from a pre-game BetMGM listing and may have moved.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NCAAF",
+      "start_time": "3:00 PM ET"
+    },
+    {
       "bet": "Vancouver Canucks moneyline",
       "confidence": "low",
       "date": "2026-11-13",
       "event": "New York Rangers at Vancouver Canucks",
+      "final_score": "Rangers 5, Canucks 1",
       "odds": "+203",
       "reasoning": "The Rangers are the better team and the market has them at roughly 68%. That price looks a little too high. Dimers' model puts the Canucks at about 35.7% against the roughly 33% implied by the +203 price, and the Canucks get Filip Chytil back from injury and play at home. The Rangers are starting Joonas Korpisalo with Igor Shesterkin out for the season. This is a thin edge on a bad team (17 losses in 20 games, 31st in expected-goals share), so expect to lose this bet about two times in three. The odds are an approximate conversion of Novig's 33¢ price, so check your own book before betting.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NHL",
       "start_time": "9:00 PM ET (6:00 PM PT)"
@@ -17,10 +30,10 @@
       "confidence": "low",
       "date": "2026-11-12",
       "event": "Washington Commanders at New York Giants",
-      "final_score": "unknown (search unavailable)",
+      "final_score": "Commanders 24, Giants 21",
       "odds": "-108",
       "reasoning": "The Giants have a strong defense and are 6-2 against the spread. Jayden Daniels should face heavy pressure, and a Giants offense with an injury-limited J.J. McCarthy (hip) may lean on the run and shorten the game. The total sits at 41 to 41.5 depending on the book, so the price is fair and not a bargain. I like the Under over the spread because the Giants line has already moved from -1.5 to -2.5, which removes the value on that side. Football totals are volatile and McCarthy's status adds uncertainty, so this is a small edge at best.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET"
@@ -366,16 +379,16 @@
   ],
   "record": {
     "all_time": {
-      "losses": 15,
-      "profit": -58.24,
+      "losses": 17,
+      "profit": -78.24,
       "pushes": 1,
       "wins": 10
     },
     "last_10": {
-      "losses": 6,
-      "profit": -32.07,
+      "losses": 7,
+      "profit": -51.78,
       "pushes": 1,
-      "wins": 3
+      "wins": 2
     },
     "stake": 10.0
   }
