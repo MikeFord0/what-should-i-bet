@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Denver Nuggets -7.5 (NBA Cup)",
+      "confidence": "low",
+      "date": "2026-11-24",
+      "event": "Dallas Mavericks at Denver Nuggets",
+      "odds": "-113",
+      "reasoning": "Denver is at home and listed with no injuries, and it has won three straight. Dallas is thin up front. Dereck Lively II, Santi Aldama and Kyrie Irving are listed out on ESPN's report, and P.J. Washington is questionable with an illness. That hurts against Nikola Jokic, who has averaged big numbers against Dallas. The spread is large, though, and Cooper Flagg and a Dallas team on a three-game winning streak could keep it close, so this is a small edge and not a strong one. Lines differ by book (-7.5 at DraftKings, -8.5 elsewhere), so shop for the best number, and don't lay -8.5 or worse.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA",
+      "start_time": "10:00 PM ET (8:00 PM MT; some listings show 10:10 PM ET)"
+    },
+    {
       "bet": "Washington Commanders +6",
       "confidence": "low",
       "date": "2026-11-23",
       "event": "Cincinnati Bengals at Washington Commanders",
+      "final_score": "Commanders 22, Bengals 20",
       "odds": "-102",
       "reasoning": "Washington has had 11 days to prepare, is at home, and Jayden Daniels has no injury designation after full practices. Cincinnati is on a five-game win streak but will start a backup at right guard because Dalton Risner is out, and left guard Dylan Fairchild is questionable. The spread is 6 at DraftKings, so a 6-point Bengals win is a push instead of a loss. Even so, Cincinnati has been very good (7-2) and Burrow's offense is hot, so this is a small edge from the key number and the rest advantage, not a strong play.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "8:15 PM ET"
@@ -393,15 +406,15 @@
   "record": {
     "all_time": {
       "losses": 17,
-      "profit": -69.47,
+      "profit": -59.67,
       "pushes": 1,
-      "wins": 11
+      "wins": 12
     },
     "last_10": {
-      "losses": 6,
-      "profit": -33.01,
+      "losses": 5,
+      "profit": -13.2,
       "pushes": 1,
-      "wins": 3
+      "wins": 4
     },
     "stake": 10.0
   }
