@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Under 218.5 points",
+      "confidence": "low",
+      "date": "2026-11-25",
+      "event": "Cleveland Cavaliers at New York Knicks",
+      "odds": "-108",
+      "reasoning": "The Knicks have the 4th-best defensive rating and one of the league's slowest, lowest-scoring offenses. They are also short-handed: OG Anunoby and Jordan Clarkson are out, and Towns, Hart and McBride are questionable. Fewer Knicks scorers should hold the pace and the points down. The risk is that Cleveland is without Evan Mobley, which weakens its defense, and that Cleveland's offense ranks 7th, so a high-scoring night is possible. Totals also vary by book (218.5 to 221.5), so the -108 price at 218.5 is the one that matters. Treat this as a small edge, not a lock.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NBA (Emirates NBA Cup)",
+      "start_time": "7:30 PM ET"
+    },
+    {
       "bet": "Denver Nuggets -7.5 (NBA Cup)",
       "confidence": "low",
       "date": "2026-11-24",
       "event": "Dallas Mavericks at Denver Nuggets",
+      "final_score": "Mavericks 120, Nuggets 101",
       "odds": "-113",
       "reasoning": "Denver is at home and listed with no injuries, and it has won three straight. Dallas is thin up front. Dereck Lively II, Santi Aldama and Kyrie Irving are listed out on ESPN's report, and P.J. Washington is questionable with an illness. That hurts against Nikola Jokic, who has averaged big numbers against Dallas. The spread is large, though, and Cooper Flagg and a Dallas team on a three-game winning streak could keep it close, so this is a small edge and not a strong one. Lines differ by book (-7.5 at DraftKings, -8.5 elsewhere), so shop for the best number, and don't lay -8.5 or worse.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA",
       "start_time": "10:00 PM ET (8:00 PM MT; some listings show 10:10 PM ET)"
@@ -405,8 +418,8 @@
   ],
   "record": {
     "all_time": {
-      "losses": 17,
-      "profit": -59.67,
+      "losses": 18,
+      "profit": -69.67,
       "pushes": 1,
       "wins": 12
     },
