@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Dallas Cowboys -8.5",
+      "confidence": "low",
+      "date": "2026-11-26",
+      "event": "Philadelphia Eagles at Dallas Cowboys",
+      "odds": "-110",
+      "reasoning": "Philadelphia is 3-7 and has lost Jalen Hurts to injured reserve with blood clots. Lane Johnson retired, and CB Jonathan Jones is out. The Eagles have also failed to cover in every road game this season. Dallas has the stronger offense, and Dak Prescott is playing well. The Cowboys beat Philadelphia 38-21 in October, when Hurts was still playing. The risks are real: -8.5 is a big number for a 5-6 team that is 2-4 at home. The public is heavily on Dallas, and Thanksgiving favorites covered 0-4 last year. Treat this as a small lean, not a strong play.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "4:30 PM ET (3:30 PM CT)"
+    },
+    {
       "bet": "Under 218.5 points",
       "confidence": "low",
       "date": "2026-11-25",
       "event": "Cleveland Cavaliers at New York Knicks",
+      "final_score": "Knicks 121, Cavaliers 102",
       "odds": "-108",
       "reasoning": "The Knicks have the 4th-best defensive rating and one of the league's slowest, lowest-scoring offenses. They are also short-handed: OG Anunoby and Jordan Clarkson are out, and Towns, Hart and McBride are questionable. Fewer Knicks scorers should hold the pace and the points down. The risk is that Cleveland is without Evan Mobley, which weakens its defense, and that Cleveland's offense ranks 7th, so a high-scoring night is possible. Totals also vary by book (218.5 to 221.5), so the -108 price at 218.5 is the one that matters. Treat this as a small edge, not a lock.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NBA (Emirates NBA Cup)",
       "start_time": "7:30 PM ET"
@@ -418,8 +431,8 @@
   ],
   "record": {
     "all_time": {
-      "losses": 18,
-      "profit": -69.67,
+      "losses": 19,
+      "profit": -79.67,
       "pushes": 1,
       "wins": 12
     },
