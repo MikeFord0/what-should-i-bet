@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Under 37.5 total points",
+      "confidence": "medium",
+      "date": "2026-11-27",
+      "event": "Denver Broncos at Pittsburgh Steelers",
+      "odds": "-119",
+      "reasoning": "Pittsburgh cut Aaron Rodgers and starts Mason Rudolph on a short week. The Steelers' passing game has been stuck at around 150 yards per game over their last three, so the offense should struggle. The Pittsburgh forecast is also poor, with snow and rain showers mixing and winds of 10 to 20 mph, and that favors the run game and the defenses. The total is already low and the juice is steep at -119, so a late score or defensive touchdown could still beat this. The quarterback chaos could also produce turnovers that lead to short fields and extra points.",
+      "result": "pending",
+      "sources": [],
+      "sport": "NFL",
+      "start_time": "3:00 PM ET"
+    },
+    {
       "bet": "Dallas Cowboys -8.5",
       "confidence": "low",
       "date": "2026-11-26",
       "event": "Philadelphia Eagles at Dallas Cowboys",
+      "final_score": "Eagles 39, Cowboys 38",
       "odds": "-110",
       "reasoning": "Philadelphia is 3-7 and has lost Jalen Hurts to injured reserve with blood clots. Lane Johnson retired, and CB Jonathan Jones is out. The Eagles have also failed to cover in every road game this season. Dallas has the stronger offense, and Dak Prescott is playing well. The Cowboys beat Philadelphia 38-21 in October, when Hurts was still playing. The risks are real: -8.5 is a big number for a 5-6 team that is 2-4 at home. The public is heavily on Dallas, and Thanksgiving favorites covered 0-4 last year. Treat this as a small lean, not a strong play.",
-      "result": "pending",
+      "result": "loss",
       "sources": [],
       "sport": "NFL",
       "start_time": "4:30 PM ET (3:30 PM CT)"
@@ -431,15 +444,15 @@
   ],
   "record": {
     "all_time": {
-      "losses": 19,
-      "profit": -79.67,
+      "losses": 20,
+      "profit": -89.67,
       "pushes": 1,
       "wins": 12
     },
     "last_10": {
-      "losses": 5,
-      "profit": -13.2,
-      "pushes": 1,
+      "losses": 6,
+      "profit": -23.2,
+      "pushes": 0,
       "wins": 4
     },
     "stake": 10.0
