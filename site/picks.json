@@ -1,13 +1,26 @@
 {
   "picks": [
     {
+      "bet": "Michigan +10.5",
+      "confidence": "low",
+      "date": "2026-11-28",
+      "event": "Michigan at Ohio State",
+      "odds": "-114",
+      "reasoning": "The total is only about 37.5, so a 10.5-point spread is a lot of points to lay. Michigan's recent games have been low-scoring and close (17-10, 21-18, 6-13 in OT, 6-15), which usually keeps the underdog in range. QB Bryce Underwood is off the final injury report, and Ohio State has 10 players out plus two cornerbacks who are game-time decisions. Rivalry games are volatile, and Ohio State can still win by two scores. A dog getting double digits in a rivalry game is the best price I see today, but it is not a sure thing.",
+      "result": "pending",
+      "sources": [],
+      "sport": "College Football (NCAAF)",
+      "start_time": "12:00 PM ET"
+    },
+    {
       "bet": "Under 37.5 total points",
       "confidence": "medium",
       "date": "2026-11-27",
       "event": "Denver Broncos at Pittsburgh Steelers",
+      "final_score": "Steelers 27, Broncos 5",
       "odds": "-119",
       "reasoning": "Pittsburgh cut Aaron Rodgers and starts Mason Rudolph on a short week. The Steelers' passing game has been stuck at around 150 yards per game over their last three, so the offense should struggle. The Pittsburgh forecast is also poor, with snow and rain showers mixing and winds of 10 to 20 mph, and that favors the run game and the defenses. The total is already low and the juice is steep at -119, so a late score or defensive touchdown could still beat this. The quarterback chaos could also produce turnovers that lead to short fields and extra points.",
-      "result": "pending",
+      "result": "win",
       "sources": [],
       "sport": "NFL",
       "start_time": "3:00 PM ET"
@@ -445,13 +458,13 @@
   "record": {
     "all_time": {
       "losses": 20,
-      "profit": -89.67,
+      "profit": -81.26,
       "pushes": 1,
-      "wins": 12
+      "wins": 13
     },
     "last_10": {
       "losses": 6,
-      "profit": -23.2,
+      "profit": -23.5,
       "pushes": 0,
       "wins": 4
     },
